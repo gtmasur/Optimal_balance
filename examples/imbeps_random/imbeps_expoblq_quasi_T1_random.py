@@ -36,7 +36,7 @@ sim.initialsetup = 'geost'            # geost or L1 initializations and 'zero' v
 sim.prognostic   = True               # compute (q,delta,gamma) in each steps
 
 # Optimal balance parameters
-sim.optimal_balance = True
+sim.optimal_balance = False
 if sim.optimal_balance: 
     sim.save_diagimb     = True          # save only diagnosed imbalances
     sim.rampfun          = 'exp'         # exp, quartic or cos
